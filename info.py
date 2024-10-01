@@ -105,7 +105,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("FQDN", "https://jisshu-filter-bot-1vfp.onrender.com")
+URL = environ.get("FQDN", "https://jisshu-filter-bot-1vfp.onrender.com/")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
