@@ -19,9 +19,9 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5672857559').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/IM_JISSHU") # ADMIN USERNAME
+USERNAME = environ.get('USERNAME', "https://t.me/itzz_introvert") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/JisshuMovieZone')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+uw9usQhoe602Yzk9')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -42,7 +42,7 @@ MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-IS_VERIFY = is_enabled('IS_VERIFY', True)
+IS_VERIFY = is_enabled('IS_VERIFY', False)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
@@ -79,18 +79,18 @@ REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
-IS_PM_SEARCH = is_enabled('IS_PM_SEARCH', False)
+IS_PM_SEARCH = is_enabled('IS_PM_SEARCH', True)
 PORT = environ.get('PORT', '5000')
 MAX_BTN = int(environ.get('MAX_BTN', '8'))
 AUTO_DELETE = is_enabled('AUTO_DELETE', True)
 DELETE_TIME = int(environ.get('DELETE_TIME', 1200))
-IMDB = is_enabled('IMDB', False)
+IMDB = is_enabled('IMDB', True)
 FILE_CAPTION = environ.get('FILE_CAPTION', f'{script.FILE_CAPTION}')
 IMDB_TEMPLATE = environ.get('IMDB_TEMPLATE', f'{script.IMDB_TEMPLATE_TXT}')
 LONG_IMDB_DESCRIPTION = is_enabled('LONG_IMDB_DESCRIPTION', False)
 PROTECT_CONTENT = is_enabled('PROTECT_CONTENT', False)
 SPELL_CHECK = is_enabled('SPELL_CHECK', True)
-LINK_MODE = is_enabled('LINK_MODE', True)
+LINK_MODE = is_enabled('LINK_MODE', False)
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -105,7 +105,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("FQDN", "")
+URL = environ.get("FQDN", "https://jisshu-filter-bot-1vfp.onrender.com")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
