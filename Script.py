@@ -115,7 +115,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b>{file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/tamil_mini">𝗧𝗮𝗺𝗷𝗹 𝗠𝗶𝗻𝗶</a>」</b>"""
+    FILE_CAPTION = """<b>@Tamil_Mini - {file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/tamil_mini">𝗧𝗮𝗺𝗷𝗹 𝗠𝗶𝗻𝗶</a>」</b>"""
     
 
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
