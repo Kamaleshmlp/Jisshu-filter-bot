@@ -344,8 +344,8 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀ�
     SOURCE_TXT = """<b>
 NOTE:
 - ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<blockquote><a href="https://t.me/tamil_mini">Tamil Mini</a></blockquote>
-
-</b>""" Kamalesh
+Mr.Kamalesh
+</b>""" 
     GROUP_C_TEXT = """<b><blockquote>
  --------------Set Verify-------------
 /set_verify {website link} {website api}
