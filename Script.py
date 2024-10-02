@@ -115,7 +115,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b>@Tamil_Mini - {file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/tamil_mini">𝗧𝗮𝗺𝗷𝗹 𝗠𝗶𝗻𝗶</a>」</b>"""
+    FILE_CAPTION = """<b>@Tamil_Mini - {file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/tamil_mini">𝗧𝗮𝗺il 𝗠𝗶𝗻𝗶</a>」</b>"""
     
 
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
@@ -266,7 +266,7 @@ User - {}"""
  ❏ 𝟷𝟿𝟿₹    ➠    𝟶𝟼 ᴍᴏɴᴛʜ
  ❏ 𝟹𝟼𝟶₹    ➠    𝟷𝟸 ᴍᴏɴᴛʜ
 
-🆔 ᴜᴘɪ ɪᴅ ➩ <code>jishan@fam</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
+🆔 ᴜᴘɪ ɪᴅ ➩ <code>.</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
  
 ⛽️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ: /myplan
 
